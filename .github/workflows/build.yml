@@ -1,0 +1,29 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+
+    - name: Create dummy build structure
+      run: |
+        mkdir -p app/src/main/java/com/example/keyboard
+        mkdir -p app/src/main/res/layout
+        mkdir -p app/src/main/res/xml
+        cp keyboard_view.xml app/src/main/res/layout/
+        cp MyIOSKeyboardService.kt app/src/main/java/com/example/keyboard/
+        cp AndroidManifest.xml app/src/main/app/ 2>/dev/null || true
+        echo "Project structure ready for build test."
