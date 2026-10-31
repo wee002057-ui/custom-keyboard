@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1C1C1E"
+    android:padding="6dp">
+
+    <!-- صف الحروف الأول (عريض وطويل) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="6dp">
+        <Button android:id="@+id/btn_q" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ض" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_w" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ص" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_e" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ث" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_r" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ق" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_t" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ف" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_y" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="غ" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_u" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ع" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_i" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="هـ" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_o" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="خ" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_p" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ح" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+    </LinearLayout>
+
+    <!-- صف الحروف الثاني (عريض وطويل) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="6dp">
+        <Button android:id="@+id/btn_a" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ش" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_s" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="س" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_d" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ي" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_f" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ب" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_g" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ل" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_h" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ا" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_j" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ت" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_k" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ن" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_l" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="م" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+        <Button android:id="@+id/btn_kashida" android:layout_width="0dp" android:layout_height="58dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ك" android:textColor="#FFFFFF" android:textSize="20sp" android:backgroundTint="#3A3A3C"/>
+    </LinearLayout>
+
+    <!-- صف التحكم السفلي (أزرار كبيرة وبارزة) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- زر الأرقام -->
+        <Button
+            android:id="@+id/btn_123"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="1.5"
+            android:layout_margin="3dp"
+            android:text="123"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:backgroundTint="#2C2C2E"/>
+
+        <!-- زر المسافة المخصص ~ عريض جداً -->
+        <Button
+            android:id="@+id/btn_space_tilde"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="4.5"
+            android:layout_margin="3dp"
+            android:text="~"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:backgroundTint="#3A3A3C"/>
+
+        <!-- زر الحذف -->
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="1.5"
+            android:layout_margin="3dp"
+            android:text="⌫"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:backgroundTint="#2C2C2E"/>
+    </LinearLayout>
+
+</LinearLayout>
